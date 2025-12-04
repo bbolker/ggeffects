@@ -118,7 +118,6 @@
                                           terms = NULL,
                                           typical = NULL,
                                           condition = NULL) {
-  insight::check_if_installed("lme4")
 
   # Since the zero inflation and the conditional model are working in "opposite
   # directions", confidence intervals can not be derived directly  from the
